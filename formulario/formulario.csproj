@@ -270,6 +270,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\CuentaBancariaController.cs" />
+    <Compile Include="CuentaBancaria.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
@@ -281,9 +283,13 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="NoEncontradoException.cs" />
+    <Compile Include="Repository\ICuentaBancariaRepository.cs" />
     <Compile Include="Repository\IUsuariosRepository.cs" />
+    <Compile Include="Repository\CuentaBancariaRepository.cs" />
     <Compile Include="Repository\UsuariosRepository.cs" />
+    <Compile Include="Servicios\ICuentaBancariaService.cs" />
     <Compile Include="Servicios\IUsuariosService.cs" />
+    <Compile Include="Servicios\CuentaBancariaService.cs" />
     <Compile Include="Servicios\UsuariosService.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
