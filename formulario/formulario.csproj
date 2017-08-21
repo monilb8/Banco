@@ -271,11 +271,13 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\CuentaBancariaController.cs" />
+    <Compile Include="Controllers\DomicilioController.cs" />
     <Compile Include="CuentaBancaria.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Domicilio.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -283,11 +285,15 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="NoEncontradoException.cs" />
+    <Compile Include="Repository\DomicilioRepository.cs" />
     <Compile Include="Repository\ICuentaBancariaRepository.cs" />
+    <Compile Include="Repository\IDomicilioRepository.cs" />
     <Compile Include="Repository\IUsuariosRepository.cs" />
     <Compile Include="Repository\CuentaBancariaRepository.cs" />
     <Compile Include="Repository\UsuariosRepository.cs" />
+    <Compile Include="Servicios\DomicilioService.cs" />
     <Compile Include="Servicios\ICuentaBancariaService.cs" />
+    <Compile Include="Servicios\IDomicilioService.cs" />
     <Compile Include="Servicios\IUsuariosService.cs" />
     <Compile Include="Servicios\CuentaBancariaService.cs" />
     <Compile Include="Servicios\UsuariosService.cs" />

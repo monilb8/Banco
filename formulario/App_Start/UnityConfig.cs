@@ -31,6 +31,11 @@ namespace formulario
                 new InterceptionBehavior<DBInterceptor>());
             container.RegisterType<ICuentaBancariaRepository, CuentaBancariaRepository>();
 
+            container.RegisterType<IDomicilioService, DomicilioService>(
+                new Interceptor<InterfaceInterceptor>(),
+                new InterceptionBehavior<DBInterceptor>());
+            container.RegisterType<IDomicilioRepository, DomicilioRepository>();
+
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

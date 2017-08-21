@@ -29,6 +29,7 @@ namespace formulario.Models
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Domicilio> Domicilio { get; set; }
         public DbSet<CuentaBancaria> CuentaBancaria { get; set; }
 
         public static ApplicationDbContext Create()
