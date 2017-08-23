@@ -71,8 +71,8 @@ namespace formulario
                         catch (Exception e)
                         {
                             dbContextTransaction.Rollback();
-                            throw new Exception("He hecho rollback de la transacción", e);
                             ApplicationDbContext.applicationDbContext = null;
+                            throw new Exception("He hecho rollback de la transacción", e);
                         }
                     }
                 }
